@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comunidade de Carros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        #home,
+        #forum,
+        #blog,
+        #sobre,
+        #contato {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Bem-vindo à Comunidade de Carros</h1>
+        <p>Discussões, dicas e tudo sobre carros!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#forum">Fórum</a>
+        <a href="#blog">Blog</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="home">
+            <h2>Sobre a Comunidade</h2>
+            <p>Este é um espaço dedicado aos amantes de carros. Aqui, você pode discutir, tirar dúvidas e compartilhar
+                suas experiências com veículos de todas as marcas e modelos.</p>
+        </section>
+
+        <section id="forum">
+            <h2>Fórum de Discussão</h2>
+            <p>Participe das discussões da comunidade! Tire suas dúvidas sobre problemas com o carro, compartilhe
+                soluções e ajude outros membros com seus conhecimentos.</p>
+            <ul>
+                <li><strong>Problemas mecânicos:</strong> Discussões sobre questões mecânicas comuns.</li>
+                <li><strong>Manutenção preventiva:</strong> Dicas para manter seu carro em ótimo estado.</li>
+                <li><strong>Modificações:</strong> Compartilhe suas modificações e upgrades.</li>
+            </ul>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Acompanhe nossas postagens sobre carros, novidades do setor automotivo e dicas para entusiastas!</p>
+            <article>
+                <h3>Postagem de Exemplo</h3>
+                <p>Conteúdo interessante sobre carros que você gostaria de compartilhar com a comunidade.</p>
+            </article>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou um entusiasta de carros e criei este espaço para conectar pessoas com a mesma paixão. Além disso,
+                tenho um canal no YouTube onde falo sobre carros, faço reviews e compartilho dicas práticas.</p>
+            <p><a href="https://www.youtube.com" target="_blank">Visite meu canal no YouTube</a></p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Tem alguma dúvida ou sugestão? Entre em contato!</p>
+            <form>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" required></textarea><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Comunidade de Carros. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
